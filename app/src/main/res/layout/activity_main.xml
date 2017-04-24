@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wiggins.logger.widget.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_String"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_huge"
+        android:background="@drawable/btn_blue_selector"
+        android:text="String"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+
+    <Button
+        android:id="@+id/btn_Json"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@drawable/btn_blue_selector"
+        android:text="Json"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+
+    <Button
+        android:id="@+id/btn_Xml"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@drawable/btn_blue_selector"
+        android:text="Xml"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+
+    <Button
+        android:id="@+id/btn_List"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@drawable/btn_blue_selector"
+        android:text="List"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+
+
+    <Button
+        android:id="@+id/btn_Map"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@drawable/btn_blue_selector"
+        android:text="Map"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+
+    <Button
+        android:id="@+id/btn_Set"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@drawable/btn_blue_selector"
+        android:text="Set"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+
+    <Button
+        android:id="@+id/btn_Exception"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@drawable/btn_blue_selector"
+        android:text="Exception"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+
+    <Button
+        android:id="@+id/btn_Format"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@drawable/btn_blue_selector"
+        android:text="Format"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+</LinearLayout>
